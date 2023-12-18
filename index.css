@@ -10,6 +10,8 @@ span{
 }
 a{
     border-bottom: 1px solid blue;
+    text-decoration-thickness:4px;
+
 }
 .boxpart{
  background-color: white;
