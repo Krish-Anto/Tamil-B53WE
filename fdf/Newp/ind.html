@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Newspaper</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            section {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            article {
+                width: 48%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Newspaper</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Politics</a>
+        <a href="#">Business</a>
+        <a href="#">Technology</a>
+        <a href="#">Entertainment</a>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Breaking News</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis eget velit dignissim tincidunt.</p>
+        </article>
+
+        <article>
+            <h2>Feature Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis eget velit dignissim tincidunt.</p>
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <h2>Politics</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis eget velit dignissim tincidunt.</p>
+        </article>
+
+        <article>
+            <h2>Business</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac felis eget velit dignissim tincidunt.</p>
+        </article>
+    </section>
+
+    <footer>
+        &copy; 2023 Your Newspaper. All rights reserved.
+    </footer>
+</body>
+</html>
