@@ -11,6 +11,14 @@
 // row.append(col);
 // container.append(row);
 // document.body.append(container);
+
+// label for="firstname">FirstName</label><br>
+//     <input type="text" value="firstname" id="firstname"><br>
+    
+//     <label for="lastname">LastName</label><br>
+//     <input type="text" value="lastname" id="lastname"><br></br>
+
+
 function label_create(a,b,c,d){
     var res = document.createElement(a);
     res.setAttribute(b,c);
